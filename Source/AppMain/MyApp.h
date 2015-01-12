@@ -3,8 +3,8 @@
 
 
 #include <time.h>
-#include "../Win32/Window.h"
-#include "../Win32/Application.h"
+#include "../../XEng/Platform/Win32/Window.h"
+#include "../../XEng/Platform/Win32/Application.h"
 
 
 
@@ -20,6 +20,7 @@ public:
 public:
 	virtual void AddControl();
 	virtual void Update();
+	virtual void Init();
 public:
 	//ÏûÏ¢
 	void OnCommand(WPARAM wParam, LPARAM lParam);
@@ -31,6 +32,8 @@ private:
 	HDC m_hdc;
 	unsigned int m_uWidth;
 	unsigned int m_uHeight;
+
+
 };
 
 
