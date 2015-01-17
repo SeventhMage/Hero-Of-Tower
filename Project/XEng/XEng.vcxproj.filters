@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{f1ebc7fa-ded0-44cd-ab79-ce3acbe2cd31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{fb1cdfb7-cbd8-4c1b-bc34-abf0ceab08e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{9dffbe03-e97a-4f08-a922-818eddd2e0b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File">
+      <UniqueIdentifier>{b91cb6ad-0869-4e98-afcd-bdd0f5ce9a4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{575c7423-ac23-4415-9541-8cd1a6e13a21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Video">
+      <UniqueIdentifier>{96c6adce-5b4c-42e8-b4f9-166e160965f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Video\OpenGL">
+      <UniqueIdentifier>{a82687bf-f894-4fec-99aa-87c60ee9a154}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Video\OpenGL\GLSL">
+      <UniqueIdentifier>{7840cf35-3c32-4bd1-80ab-cf1d6cbf2b34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Video\DirectX">
+      <UniqueIdentifier>{ad6b3e91-d97c-40c0-829f-070bb776b0b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Video\OpenGL\GL">
+      <UniqueIdentifier>{18019c57-a458-4818-93f3-8c69a24df935}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{4a4ba262-58d5-490a-b934-40e4bbc26280}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File\Log">
+      <UniqueIdentifier>{c7711a73-0884-4705-8467-e08cbd4045d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform">
+      <UniqueIdentifier>{34bb6852-7166-46f0-86e2-aae0ea0b3142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform\Win32">
+      <UniqueIdentifier>{dde46bfa-c1e8-44f5-8ea9-3a305f71370c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\XEng\Core\MathDefine.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XEng\Core\Vector.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XEng\Core\Matrix.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XEng\Core\AABB.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XEng\Scene\SceneMgr.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XEng\Scene\SceneNode.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XEng\Video\OpenGL\OpenGLDriver.h">
+      <Filter>Video\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XEng\Video\IVideoDriver.h">
+      <Filter>Video</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XEng\Video\IVideoData.h">
+      <Filter>Video</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XEng\Video\DriverData.h">
+      <Filter>Video</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XEng\Video\OpenGL\GL\glew.h">
+      <Filter>Video\OpenGL\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XEng\Video\OpenGL\GL\glxew.h">
+      <Filter>Video\OpenGL\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XEng\Video\OpenGL\GL\wglew.h">
+      <Filter>Video\OpenGL\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XEng\Common\CommonDef.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XEng\File\Log\Log.h">
+      <Filter>File\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XEng\Video\OpenGL\GLBatch.h">
+      <Filter>Video\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XEng\Video\OpenGL\GLBatchBase.h">
+      <Filter>Video\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XEng\Video\OpenGL\GLFrame.h">
+      <Filter>Video\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XEng\Video\OpenGL\GLFrustum.h">
+      <Filter>Video\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XEng\Video\OpenGL\GLGeometryTransform.h">
+      <Filter>Video\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XEng\Video\OpenGL\GLMatrixStack.h">
+      <Filter>Video\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XEng\Video\OpenGL\GLShaderManager.h">
+      <Filter>Video\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XEng\Video\OpenGL\GLTools.h">
+      <Filter>Video\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XEng\Video\OpenGL\GLTriangleBatch.h">
+      <Filter>Video\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XEng\Video\OpenGL\math3d.h">
+      <Filter>Video\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XEng\Video\OpenGL\StopWatch.h">
+      <Filter>Video\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XEng\Platform\Win32\Application.h">
+      <Filter>Platform\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XEng\Platform\Win32\button.h">
+      <Filter>Platform\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XEng\Platform\Win32\controlpart.h">
+      <Filter>Platform\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XEng\Platform\Win32\label.h">
+      <Filter>Platform\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XEng\Platform\Win32\listbox.h">
+      <Filter>Platform\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XEng\Platform\Win32\Window.h">
+      <Filter>Platform\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\XEng\GUI\GUIMgr.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\XEng\Core\Vector.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\XEng\Core\Matrix.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\XEng\Scene\SceneNode.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\XEng\Scene\SceneMgr.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\XEng\Video\OpenGL\OpenGLDriver.cpp">
+      <Filter>Video\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\XEng\Video\OpenGL\glew.c">
+      <Filter>Video\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\XEng\Video\OpenGL\GLBatch.cpp">
+      <Filter>Video\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\XEng\Video\OpenGL\GLShaderManager.cpp">
+      <Filter>Video\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\XEng\Video\OpenGL\GLTools.cpp">
+      <Filter>Video\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\XEng\Video\OpenGL\GLTriangleBatch.cpp">
+      <Filter>Video\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\XEng\Video\OpenGL\math3d.cpp">
+      <Filter>Video\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\XEng\Platform\Win32\Application.cpp">
+      <Filter>Platform\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\XEng\Platform\Win32\button.cpp">
+      <Filter>Platform\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\XEng\Platform\Win32\controlpart.cpp">
+      <Filter>Platform\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\XEng\Platform\Win32\label.cpp">
+      <Filter>Platform\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\XEng\Platform\Win32\listbox.cpp">
+      <Filter>Platform\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\XEng\Platform\Win32\Window.cpp">
+      <Filter>Platform\Win32</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

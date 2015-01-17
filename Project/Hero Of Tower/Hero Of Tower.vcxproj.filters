@@ -1,32 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Win32">
-      <UniqueIdentifier>{4ed1651d-8381-4234-8053-016daf6d5fb3}</UniqueIdentifier>
-    </Filter>
     <Filter Include="AppMain">
       <UniqueIdentifier>{6629b3d9-7d4b-419e-b49e-708b6e95c9b4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{f6496bf3-0ff2-4c77-99df-89d241e0ae23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Net">
+      <UniqueIdentifier>{a67de857-150d-490e-b2cc-10ce0a72e7e6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Source\Win32\Application.cpp">
-      <Filter>Win32</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Win32\button.cpp">
-      <Filter>Win32</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Win32\controlpart.cpp">
-      <Filter>Win32</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Win32\label.cpp">
-      <Filter>Win32</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Win32\listbox.cpp">
-      <Filter>Win32</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Win32\Window.cpp">
-      <Filter>Win32</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Source\AppMain\main.cpp">
       <Filter>AppMain</Filter>
     </ClCompile>
@@ -35,24 +20,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Source\Win32\Application.h">
-      <Filter>Win32</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Win32\button.h">
-      <Filter>Win32</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Win32\controlpart.h">
-      <Filter>Win32</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Win32\label.h">
-      <Filter>Win32</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Win32\listbox.h">
-      <Filter>Win32</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Win32\Window.h">
-      <Filter>Win32</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\Source\AppMain\MyApp.h">
       <Filter>AppMain</Filter>
     </ClInclude>
